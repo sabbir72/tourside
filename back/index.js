@@ -40,7 +40,7 @@ if(process.env.NODE_ENV!=="PRODUCTION"){
 
 //db connection--------------
  connectDatabase();
-
+const PORT=process.env.PORT || 5000;
 
 app.use("/api/auth" , authRoute);
 app.use("/api/users" , userRoute);
@@ -56,6 +56,6 @@ app.get("*",(req,res) =>{
 })
 
 
-app.listen("5000",()=>{
+app.listen(PORT,()=>{
     console.log("connection server.");
 } );
