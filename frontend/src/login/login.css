@@ -1,0 +1,77 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( rgb(255 255 255 / 0%), rgb(255 255 255 / 5%) ), url(https://images.unsplash.com/photo-1542259009477-d625272157b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHw%3D&w=1000&q=80);
+    background-size: cover;
+}
+
+.loginTitle{
+    font-size: 50px;
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.loginForm >label{
+    margin: 10px 0;
+}
+
+.loginInput{
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 2px;
+}
+.remember{
+display: flex;
+margin-top: 6px;
+}
+.box{
+    width: 15px;
+    height: 15px;
+}
+.loginRem{
+    margin-left: 5px;
+    color: #fff;
+}
+.loginForget{
+ margin-left: 400px;
+ color: #fff;
+}
+
+.loginRegis{
+   align-items: center;
+    color: #fff;
+    margin-top: 10px;
+    
+}
+
+.loginBtn{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal ;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.loginReg{
+    margin-top: 6px;
+    width: 33vh;
+    cursor: pointer;
+    background-color: teal ;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+}
+.loginBtn:disabled{
+    cursor: not-allowed;
+    background-color: #49a7a7;
+}
